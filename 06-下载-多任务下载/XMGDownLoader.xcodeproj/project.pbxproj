@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		701EFE8F1E29FF5C0021851E /* ZYDownLoaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 701EFE8E1E29FF5C0021851E /* ZYDownLoaderManager.m */; };
+		701EFE921E2A00DF0021851E /* NSString+SZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 701EFE911E2A00DF0021851E /* NSString+SZ.m */; };
+		70C9095C1E222B4100DBA849 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C9095B1E222B4100DBA849 /* main.m */; };
+		70C9095F1E222B4100DBA849 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C9095E1E222B4100DBA849 /* AppDelegate.m */; };
+		70C909621E222B4100DBA849 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C909611E222B4100DBA849 /* ViewController.m */; };
+		70C909651E222B4100DBA849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C909631E222B4100DBA849 /* Main.storyboard */; };
+		70C909671E222B4100DBA849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C909661E222B4100DBA849 /* Assets.xcassets */; };
+		70C9096A1E222B4100DBA849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C909681E222B4100DBA849 /* LaunchScreen.storyboard */; };
+		70C909741E222C9200DBA849 /* ZYDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C909731E222C9200DBA849 /* ZYDownLoader.m */; };
+		70C909771E22302E00DBA849 /* ZYFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C909761E22302E00DBA849 /* ZYFileTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		701EFE8D1E29FF5C0021851E /* ZYDownLoaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDownLoaderManager.h; sourceTree = "<group>"; };
+		701EFE8E1E29FF5C0021851E /* ZYDownLoaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDownLoaderManager.m; sourceTree = "<group>"; };
+		701EFE901E2A00DF0021851E /* NSString+SZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SZ.h"; sourceTree = "<group>"; };
+		701EFE911E2A00DF0021851E /* NSString+SZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SZ.m"; sourceTree = "<group>"; };
+		70C909571E222B4100DBA849 /* XMGDownLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMGDownLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C9095B1E222B4100DBA849 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70C9095D1E222B4100DBA849 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70C9095E1E222B4100DBA849 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70C909601E222B4100DBA849 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70C909611E222B4100DBA849 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70C909641E222B4100DBA849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70C909661E222B4100DBA849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70C909691E222B4100DBA849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70C9096B1E222B4100DBA849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70C909721E222C9200DBA849 /* ZYDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDownLoader.h; sourceTree = "<group>"; };
+		70C909731E222C9200DBA849 /* ZYDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDownLoader.m; sourceTree = "<group>"; };
+		70C909751E22302E00DBA849 /* ZYFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYFileTool.h; sourceTree = "<group>"; };
+		70C909761E22302E00DBA849 /* ZYFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYFileTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70C909541E222B4100DBA849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70C9094E1E222B4100DBA849 = {
+			isa = PBXGroup;
+			children = (
+				70C909591E222B4100DBA849 /* XMGDownLoader */,
+				70C909581E222B4100DBA849 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70C909581E222B4100DBA849 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70C909571E222B4100DBA849 /* XMGDownLoader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70C909591E222B4100DBA849 /* XMGDownLoader */ = {
+			isa = PBXGroup;
+			children = (
+				70C9095D1E222B4100DBA849 /* AppDelegate.h */,
+				70C909711E222B5000DBA849 /* Classes */,
+				70C9095E1E222B4100DBA849 /* AppDelegate.m */,
+				70C909601E222B4100DBA849 /* ViewController.h */,
+				70C909611E222B4100DBA849 /* ViewController.m */,
+				70C909631E222B4100DBA849 /* Main.storyboard */,
+				70C909661E222B4100DBA849 /* Assets.xcassets */,
+				70C909681E222B4100DBA849 /* LaunchScreen.storyboard */,
+				70C9096B1E222B4100DBA849 /* Info.plist */,
+				70C9095A1E222B4100DBA849 /* Supporting Files */,
+			);
+			path = XMGDownLoader;
+			sourceTree = "<group>";
+		};
+		70C9095A1E222B4100DBA849 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70C9095B1E222B4100DBA849 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70C909711E222B5000DBA849 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				70C909721E222C9200DBA849 /* ZYDownLoader.h */,
+				70C909731E222C9200DBA849 /* ZYDownLoader.m */,
+				701EFE8D1E29FF5C0021851E /* ZYDownLoaderManager.h */,
+				701EFE8E1E29FF5C0021851E /* ZYDownLoaderManager.m */,
+				70C909751E22302E00DBA849 /* ZYFileTool.h */,
+				70C909761E22302E00DBA849 /* ZYFileTool.m */,
+				701EFE901E2A00DF0021851E /* NSString+SZ.h */,
+				701EFE911E2A00DF0021851E /* NSString+SZ.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70C909561E222B4100DBA849 /* XMGDownLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70C9096E1E222B4100DBA849 /* Build configuration list for PBXNativeTarget "XMGDownLoader" */;
+			buildPhases = (
+				70C909531E222B4100DBA849 /* Sources */,
+				70C909541E222B4100DBA849 /* Frameworks */,
+				70C909551E222B4100DBA849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMGDownLoader;
+			productName = XMGDownLoader;
+			productReference = 70C909571E222B4100DBA849 /* XMGDownLoader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70C9094F1E222B4100DBA849 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = xmg;
+				TargetAttributes = {
+					70C909561E222B4100DBA849 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 70C909521E222B4100DBA849 /* Build configuration list for PBXProject "XMGDownLoader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70C9094E1E222B4100DBA849;
+			productRefGroup = 70C909581E222B4100DBA849 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70C909561E222B4100DBA849 /* XMGDownLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70C909551E222B4100DBA849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C9096A1E222B4100DBA849 /* LaunchScreen.storyboard in Resources */,
+				70C909671E222B4100DBA849 /* Assets.xcassets in Resources */,
+				70C909651E222B4100DBA849 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70C909531E222B4100DBA849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C909621E222B4100DBA849 /* ViewController.m in Sources */,
+				70C909741E222C9200DBA849 /* ZYDownLoader.m in Sources */,
+				70C9095F1E222B4100DBA849 /* AppDelegate.m in Sources */,
+				70C9095C1E222B4100DBA849 /* main.m in Sources */,
+				70C909771E22302E00DBA849 /* ZYFileTool.m in Sources */,
+				701EFE921E2A00DF0021851E /* NSString+SZ.m in Sources */,
+				701EFE8F1E29FF5C0021851E /* ZYDownLoaderManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		70C909631E222B4100DBA849 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70C909641E222B4100DBA849 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70C909681E222B4100DBA849 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70C909691E222B4100DBA849 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70C9096C1E222B4100DBA849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70C9096D1E222B4100DBA849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70C9096F1E222B4100DBA849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XMGDownLoader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.520it.XMGDownLoader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70C909701E222B4100DBA849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XMGDownLoader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.520it.XMGDownLoader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70C909521E222B4100DBA849 /* Build configuration list for PBXProject "XMGDownLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70C9096C1E222B4100DBA849 /* Debug */,
+				70C9096D1E222B4100DBA849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70C9096E1E222B4100DBA849 /* Build configuration list for PBXNativeTarget "XMGDownLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70C9096F1E222B4100DBA849 /* Debug */,
+				70C909701E222B4100DBA849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70C9094F1E222B4100DBA849 /* Project object */;
+}
