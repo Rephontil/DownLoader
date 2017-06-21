@@ -24,10 +24,10 @@
 		701EFE8E1E29FF5C0021851E /* ZYDownLoaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDownLoaderManager.m; sourceTree = "<group>"; };
 		701EFE901E2A00DF0021851E /* NSString+SZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SZ.h"; sourceTree = "<group>"; };
 		701EFE911E2A00DF0021851E /* NSString+SZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SZ.m"; sourceTree = "<group>"; };
-		70C909571E222B4100DBA849 /* XMGDownLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMGDownLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C909571E222B4100DBA849 /* ZYDownLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYDownLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C9095B1E222B4100DBA849 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		70C9095D1E222B4100DBA849 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		70C9095E1E222B4100DBA849 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70C9095D1E222B4100DBA849 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		70C9095E1E222B4100DBA849 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		70C909601E222B4100DBA849 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		70C909611E222B4100DBA849 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		70C909641E222B4100DBA849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,10 +51,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25DEC3861EFADAD400E878F2 /* ZYDownLoader */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZYDownLoader;
+			sourceTree = "<group>";
+		};
 		70C9094E1E222B4100DBA849 = {
 			isa = PBXGroup;
 			children = (
-				70C909591E222B4100DBA849 /* XMGDownLoader */,
+				25DEC3861EFADAD400E878F2 /* ZYDownLoader */,
+				70C909591E222B4100DBA849 /* ZYDownLoader */,
 				70C909581E222B4100DBA849 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,17 +70,15 @@
 		70C909581E222B4100DBA849 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				70C909571E222B4100DBA849 /* XMGDownLoader.app */,
+				70C909571E222B4100DBA849 /* ZYDownLoader.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		70C909591E222B4100DBA849 /* XMGDownLoader */ = {
+		70C909591E222B4100DBA849 /* ZYDownLoader */ = {
 			isa = PBXGroup;
 			children = (
-				70C9095D1E222B4100DBA849 /* AppDelegate.h */,
 				70C909711E222B5000DBA849 /* Classes */,
-				70C9095E1E222B4100DBA849 /* AppDelegate.m */,
 				70C909601E222B4100DBA849 /* ViewController.h */,
 				70C909611E222B4100DBA849 /* ViewController.m */,
 				70C909631E222B4100DBA849 /* Main.storyboard */,
@@ -81,6 +87,7 @@
 				70C9096B1E222B4100DBA849 /* Info.plist */,
 				70C9095A1E222B4100DBA849 /* Supporting Files */,
 			);
+			name = ZYDownLoader;
 			path = XMGDownLoader;
 			sourceTree = "<group>";
 		};
@@ -95,6 +102,8 @@
 		70C909711E222B5000DBA849 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				70C9095E1E222B4100DBA849 /* AppDelegate.m */,
+				70C9095D1E222B4100DBA849 /* AppDelegate.h */,
 				70C909721E222C9200DBA849 /* ZYDownLoader.h */,
 				70C909731E222C9200DBA849 /* ZYDownLoader.m */,
 				701EFE8D1E29FF5C0021851E /* ZYDownLoaderManager.h */,
@@ -110,9 +119,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		70C909561E222B4100DBA849 /* XMGDownLoader */ = {
+		70C909561E222B4100DBA849 /* ZYDownLoader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70C9096E1E222B4100DBA849 /* Build configuration list for PBXNativeTarget "XMGDownLoader" */;
+			buildConfigurationList = 70C9096E1E222B4100DBA849 /* Build configuration list for PBXNativeTarget "ZYDownLoader" */;
 			buildPhases = (
 				70C909531E222B4100DBA849 /* Sources */,
 				70C909541E222B4100DBA849 /* Frameworks */,
@@ -122,9 +131,9 @@
 			);
 			dependencies = (
 			);
-			name = XMGDownLoader;
+			name = ZYDownLoader;
 			productName = XMGDownLoader;
-			productReference = 70C909571E222B4100DBA849 /* XMGDownLoader.app */;
+			productReference = 70C909571E222B4100DBA849 /* ZYDownLoader.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +151,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 70C909521E222B4100DBA849 /* Build configuration list for PBXProject "XMGDownLoader" */;
+			buildConfigurationList = 70C909521E222B4100DBA849 /* Build configuration list for PBXProject "ZYDownLoader" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -155,7 +164,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				70C909561E222B4100DBA849 /* XMGDownLoader */,
+				70C909561E222B4100DBA849 /* ZYDownLoader */,
 			);
 		};
 /* End PBXProject section */
@@ -323,7 +332,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		70C909521E222B4100DBA849 /* Build configuration list for PBXProject "XMGDownLoader" */ = {
+		70C909521E222B4100DBA849 /* Build configuration list for PBXProject "ZYDownLoader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70C9096C1E222B4100DBA849 /* Debug */,
@@ -332,7 +341,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70C9096E1E222B4100DBA849 /* Build configuration list for PBXNativeTarget "XMGDownLoader" */ = {
+		70C9096E1E222B4100DBA849 /* Build configuration list for PBXNativeTarget "ZYDownLoader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70C9096F1E222B4100DBA849 /* Debug */,
