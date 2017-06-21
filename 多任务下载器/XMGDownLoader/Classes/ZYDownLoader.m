@@ -14,8 +14,6 @@
 #define kTmpPath NSTemporaryDirectory()
 
 
-
-
 @interface ZYDownLoader () <NSURLSessionDataDelegate>
 {
     // 记录文件临时下载大小

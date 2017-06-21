@@ -26,8 +26,8 @@
 		701EFE911E2A00DF0021851E /* NSString+SZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SZ.m"; sourceTree = "<group>"; };
 		70C909571E222B4100DBA849 /* ZYDownLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYDownLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C9095B1E222B4100DBA849 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		70C9095D1E222B4100DBA849 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
-		70C9095E1E222B4100DBA849 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		70C9095D1E222B4100DBA849 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70C9095E1E222B4100DBA849 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		70C909601E222B4100DBA849 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		70C909611E222B4100DBA849 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		70C909641E222B4100DBA849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -81,6 +81,8 @@
 				70C909711E222B5000DBA849 /* Classes */,
 				70C909601E222B4100DBA849 /* ViewController.h */,
 				70C909611E222B4100DBA849 /* ViewController.m */,
+				70C9095E1E222B4100DBA849 /* AppDelegate.m */,
+				70C9095D1E222B4100DBA849 /* AppDelegate.h */,
 				70C909631E222B4100DBA849 /* Main.storyboard */,
 				70C909661E222B4100DBA849 /* Assets.xcassets */,
 				70C909681E222B4100DBA849 /* LaunchScreen.storyboard */,
@@ -102,8 +104,6 @@
 		70C909711E222B5000DBA849 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				70C9095E1E222B4100DBA849 /* AppDelegate.m */,
-				70C9095D1E222B4100DBA849 /* AppDelegate.h */,
 				70C909721E222C9200DBA849 /* ZYDownLoader.h */,
 				70C909731E222C9200DBA849 /* ZYDownLoader.m */,
 				701EFE8D1E29FF5C0021851E /* ZYDownLoaderManager.h */,

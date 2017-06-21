@@ -30,8 +30,6 @@
 }
 
 
-
-
 - (void)update {
 //    NSLog(@"----%zd", self.downLoader.state);
 }

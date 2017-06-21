@@ -67,21 +67,15 @@ static ZYDownLoaderManager *_shareInstance;
         downLoader = [[ZYDownLoader alloc] init];
         self.downLoadInfo[urlMD5] = downLoader;
     }
-    
-//    [downLoader downLoader:url downLoadInfo:downLoadInfo progress:progressBlock success:successBlock failed:failedBlock];
-    
+        
     __weak typeof(self) weakSelf = self;
     [downLoader downLoader:url downLoadInfo:downLoadInfo progress:progressBlock success:^(NSString *filePath) {
         
+        // 下载完成之后, 移除下载器
         [weakSelf.downLoadInfo removeObjectForKey:urlMD5];
         // 拦截block
         successBlock(filePath);
     } failed:failedBlock];
-    
-    
-    
-    // 下载完成之后, 移除下载器
-    //
     
 }
 
