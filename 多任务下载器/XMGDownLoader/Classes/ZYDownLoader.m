@@ -2,7 +2,7 @@
 //  ZYDownLoader.m
 //  ZYDownLoader
 //
-//  Created by ZhouYong on 2017/1/8.
+//  Created by ZhouYong on 2016/8/8.
 //  Copyright © 2017年 ZhouYong. All rights reserved.
 //
 
@@ -48,8 +48,6 @@
     
     // 2. 开始下载
     [self downLoader:url];
-    
-    
 }
 
 
@@ -78,7 +76,7 @@
 
     // 两种: 1. 任务不存在, 2. 任务存在, 但是, 任务的Url地址 不同
     
-    [self cacelCurrentTask];
+    [self cancelCurrentTask];
     // 1. 获取文件名称, 指明路径, 开启一个新任务
     NSString *fileName = url.lastPathComponent;
     self.downLoadedPath = [kCachePath stringByAppendingPathComponent:fileName];
@@ -131,13 +129,12 @@
         [self.dataTask resume];
         self.state = ZYDownLoadStateDownLoading;
     }
-
 }
 
 /**
  取消当前任务
  */
-- (void)cacelCurrentTask {
+- (void)cancelCurrentTask {
     self.state = ZYDownLoadStatePause;
     [self.session invalidateAndCancel];
     self.session = nil;
@@ -147,12 +144,10 @@
  取消任务, 并清理资源
  */
 - (void)cacelAndClean {
-    [self cacelCurrentTask];
+    [self cancelCurrentTask];
     [ZYFileTool removeFile:self.downLoadingPath];
     // 下载完成的文件 -> 手动删除某个声音 -> 统一清理缓存
 }
-
-
 
 
 #pragma mark - 协议方法
@@ -183,7 +178,6 @@
     if (self.downLoadInfo != nil) {
         self.downLoadInfo(_totalSize);
     }
-    
     
     
     // 比对本地大小, 和 总大小

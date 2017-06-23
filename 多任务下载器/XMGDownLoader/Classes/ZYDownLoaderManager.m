@@ -2,7 +2,7 @@
 //  ZYDownLoaderManager.m
 //  ZYDownLoader
 //
-//  Created by ZhouYong on 2017/1/14.
+//  Created by ZhouYong on 2016/8/14.
 //  Copyright © 2017年 ZhouYong. All rights reserved.
 //
 
@@ -10,14 +10,10 @@
 #import "NSString+SZ.h"
 @interface ZYDownLoaderManager()<NSCopying, NSMutableCopying>
 
-//@property (nonatomic, strong) ZYDownLoader *downLoader;
-
-
 @property (nonatomic, strong) NSMutableDictionary *downLoadInfo;
 
-
-
 @end
+
 
 @implementation ZYDownLoaderManager
 
@@ -80,31 +76,44 @@ static ZYDownLoaderManager *_shareInstance;
 }
 
 - (void)pauseWithURL:(NSURL *)url {
-    
     NSString *urlMD5 = [url.absoluteString md5];
     ZYDownLoader *downLoader = self.downLoadInfo[urlMD5];
     [downLoader pauseCurrentTask];
 }
+
 - (void)resumeWithURL:(NSURL *)url {
     NSString *urlMD5 = [url.absoluteString md5];
     ZYDownLoader *downLoader = self.downLoadInfo[urlMD5];
     [downLoader resumeCurrentTask];
 }
+
 - (void)cancelWithURL:(NSURL *)url {
     NSString *urlMD5 = [url.absoluteString md5];
     ZYDownLoader *downLoader = self.downLoadInfo[urlMD5];
-    [downLoader cacelCurrentTask];
-
+    [downLoader cancelCurrentTask];
 }
 
+- (void)cancelAndCleanWithURL:(NSURL *)url{
+    NSString *urlMD5 = [url.absoluteString md5];
+    ZYDownLoader *downLoader = self.downLoadInfo[urlMD5];
+    [downLoader cacelAndClean];
+}
 
 - (void)pauseAll {
-    
     [self.downLoadInfo.allValues performSelector:@selector(pauseCurrentTask) withObject:nil];
-    
 }
+
+- (void)cancelAll{
+    [self.downLoadInfo.allKeys performSelector:@selector(cancelCurrentTask) withObject:nil];
+}
+
 - (void)resumeAll {
      [self.downLoadInfo.allValues performSelector:@selector(resumeCurrentTask) withObject:nil];
 }
+
+- (void)cancelAndCleanAll{
+    [self.downLoadInfo.allKeys performSelector:@selector(cacelAndClean) withObject:nil];
+}
+
 
 @end

@@ -2,7 +2,7 @@
 //  ZYFileTool.m
 //  ZYDownLoader
 //
-//  Created by ZhouYong on 2017/1/8.
+//  Created by ZhouYong on 2016/8/8.
 //  Copyright © 2017年 ZhouYong. All rights reserved.
 //
 
@@ -22,7 +22,6 @@
     if (![self fileExists:filePath]) {
         return 0;
     }
-    
    NSDictionary *fileInfo = [[NSFileManager defaultManager] attributesOfItemAtPath:filePath error:nil];
     
     return [fileInfo[NSFileSize] longLongValue];
@@ -36,7 +35,6 @@
     }
     
     [[NSFileManager defaultManager] moveItemAtPath:fromPath toPath:toPath error:nil];
-
 }
 
 + (void)removeFile:(NSString *)filePath {
